@@ -31,19 +31,30 @@ renderHome = function(){
   const d=home.learning;if(!d)return;
   const rankProgress=d.rank.next?100*(d.xp-d.rank.start)/(d.rank.next-d.rank.start):100;
   screen.innerHTML='<div class="studio-kicker"><span class="onair">Твоя студия</span><span>'+d.streak+' дн. в эфире</span></div>'+
-    '<div class="hero"><div class="eyebrow">'+escapeHtml(d.rank.name)+' · '+d.xp+' XP</div><h1>Твой голос.<br>Точный эфир.</h1><p class="lead">Русский без случайных ответов. Выбирай рубрику — и выходи в эфир.</p>'+waveform()+'</div>'+
+    '<div class="hero"><div class="eyebrow">'+escapeHtml(d.rank.name)+' · '+d.xp+' XP</div><h1>Твой голос.<br>Точный эфир.</h1><p class="lead">Приготовься: ты ведущий в прямом эфире. Ставь ударения, выбирай точные слова и соблюдай нормы русского языка. Ты — лицо канала, и твоя грамотная речь задаёт тон всему эфиру.</p>'+waveform()+'</div>'+
     '<div class="daily-panel"><div class="progress-top"><span>'+escapeHtml(examText(d.exam))+'</span><b>'+Math.min(d.today.unique_count,d.goal)+' / '+d.goal+'</b></div>'+
     '<div class="progress-track"><i style="width:'+Math.min(100,100*d.today.unique_count/d.goal)+'%"></i></div><p class="footnote">'+(d.today.unique_count>=d.goal?'Дневная цель выполнена. Отличный эфир!':'Сегодня в программе: '+Math.max(0,d.goal-d.today.unique_count)+' новых вопросов до цели.')+'</p></div>'+
     '<div class="stats"><div class="stat"><b>'+home.stats.learned+'</b><span>слов освоено</span></div><div class="stat"><b>'+d.due+'</b><span>пора повторить</span></div><div class="stat"><b>'+d.total.studied+'</b><span>верных заданий</span></div></div>'+
-    '<section class="program-section"><div class="eyebrow">Слово сегодняшнего эфира</div>'+
-    actionCard(d.archive.some(x=>x.day===new Date().toISOString().slice(0,10))?'Слово дня уже в эфире':'Одно слово на сегодня','Верное ударение и маленький шаг к привычке','data-mode="word"','◉')+'</section>'+
     '<section class="program-section"><div class="eyebrow">Основные эфиры</div>'+
     actionCard(round?'Продолжить выпуск':'Эфир: ударения','10 слов · без спешки','id="classicStart"','●')+
-    actionCard('Тренировка ЕГЭ','Ударения · задание 4','id="classicEge"','≡')+
+    actionCard('Эфир: паронимы','Выбирай точное слово · задание 5','id="mainParonyms"','≡')+
+    actionCard('Эфир: грамматические нормы','Исправляй речевые ошибки · задания 6–8','id="mainGrammar"','≡')+
+    actionCard('Эфир: орфография','Пиши без ошибок · задания 9–15','id="mainSpelling"','≡')+
+    actionCard('Эфир: пунктуация','Расставляй знаки · задания 16–21','id="mainPunctuation"','≡')+'</section>'+
+    '<section class="program-section"><div class="eyebrow">Ещё в программе</div>'+
+    actionCard('Тренировка ЕГЭ','Все пять направлений · задания 4–21','id="classicEge"','≡')+
     actionCard('Все рубрики','Паронимы, речь, орфография, пунктуация','id="allChannels"','▦')+'</section>'+
+    '<section class="program-section"><div class="eyebrow">Слово сегодняшнего эфира</div>'+
+    actionCard(d.archive.some(x=>x.day===new Date().toISOString().slice(0,10))?'Слово дня уже в эфире':'Одно слово на сегодня','Верное ударение и маленький шаг к привычке','data-mode="word"','◉')+'</section>'+
     (d.active.length?'<section class="program-section"><div class="eyebrow">Продолжить эфир</div>'+d.active.map(s=>actionCard(modeNames[s.mode]||s.mode,'Прогресс сохранён','data-resume="'+escapeHtml(s.id)+'"','↺')).join('')+'</section>':'')+
     '<div class="career-strip"><span>'+escapeHtml(d.rank.name)+'</span><span>'+d.xp+(d.rank.next?' / '+d.rank.next:'')+' XP</span></div><div class="progress-track"><i style="width:'+rankProgress+'%"></i></div>';
   $('#classicStart').onclick=()=>{view='classic';round?(result?renderResult():renderCard()):startRound();tg?.BackButton?.show();};
+  // Select from the live exam bank on each start, so imported exercises become
+  // available in the pinned broadcasts without maintaining a second ID list.
+  $('#mainParonyms').onclick=()=>beginExam({mode:'numbers',numbers:[5],count:5});
+  $('#mainGrammar').onclick=()=>beginExam({mode:'numbers',numbers:[6,7,8],count:5});
+  $('#mainSpelling').onclick=()=>beginExam({mode:'numbers',numbers:[9,10,11,12,13,14,15],count:5});
+  $('#mainPunctuation').onclick=()=>beginExam({mode:'numbers',numbers:[16,17,18,19,20,21],count:5});
   $('#classicEge').onclick=()=>nav('ege');$('#allChannels').onclick=()=>nav('channels');bindPrograms();
 };
 function bindPrograms(){

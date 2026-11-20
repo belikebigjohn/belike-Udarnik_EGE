@@ -14,6 +14,15 @@ const d={xp:160,rank:{name:'Корреспондент',level:2,start:100,next:3
 vm.runInContext('home='+JSON.stringify({learning:d,stats:{learned:2},word_count:220,reminders:false,source:{year:2026,url:'https://fipi.ru'}})+'; round=null;renderHome()',context);
 assert.match(node('#screen').innerHTML,/Твой голос/);
 assert.match(node('#screen').innerHTML,/Слово сегодняшнего эфира/);
+const studioHtml=node('#screen').innerHTML;
+assert.match(studioHtml,/ты ведущий в прямом эфире/);
+assert.ok(studioHtml.indexOf('верных заданий')<studioHtml.indexOf('Основные эфиры'));
+assert.ok(studioHtml.indexOf('Основные эфиры')<studioHtml.indexOf('Слово сегодняшнего эфира'));
+context.beginExam=payload=>JSON.parse(JSON.stringify(payload));
+for(const [id,numbers] of [['mainParonyms',[5]],['mainGrammar',[6,7,8]],['mainSpelling',[9,10,11,12,13,14,15]],['mainPunctuation',[16,17,18,19,20,21]]]){
+ assert.match(studioHtml,new RegExp('id="'+id+'"'));
+ assert.deepEqual(node('#'+id).onclick(),{mode:'numbers',numbers,count:5});
+}
 for(const name of ['channels','career','ege','settings','home']){context.nav(name);assert.ok(node('#screen').innerHTML.length>100);}
 for(const c of d.categories){context.renderCategory(c.id);assert.match(node('#screen').innerHTML,/Учебный эфир/);assert.match(node('#screen').innerHTML,/Репетиция ЕГЭ/);}
 context.renderTeleIntro();assert.match(node('#screen').innerHTML,/12 секунд/);
