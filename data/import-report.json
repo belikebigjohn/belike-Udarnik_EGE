@@ -1,0 +1,17 @@
+{
+  "source_sha256": "6e1b6dcaf835f6b7294c9426de406dea3614bb81d9d28e25fc423c9c8036f389",
+  "entries": 220,
+  "by_category": {
+    "существительные": 63,
+    "прилагательные": 11,
+    "глаголы": 103,
+    "причастия": 28,
+    "деепричастия": 7,
+    "наречия": 8
+  },
+  "unique_written_forms": 218,
+  "with_notes": 108,
+  "with_footnotes": 2,
+  "source_pdf": "ru-1-fonetika-2026.pdf",
+  "method": "Only explicitly capitalized stressed headwords or forms at the start of list lines or after semicolons; no generated inflections."
+}

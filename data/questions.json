@@ -1,0 +1,983 @@
+[
+  {
+    "id": "p1",
+    "category": "paronyms",
+    "topic": "Одеть — надеть",
+    "type": "choice",
+    "prompt": "Перед выходом ведущий должен … пиджак.",
+    "answer": "надеть",
+    "alternatives": [],
+    "explanation": "Надеть — что-то на себя; одеть — кого-то.",
+    "options": [
+      "надеть",
+      "одеть"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=надеть&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p2",
+    "category": "paronyms",
+    "topic": "Эффектный — эффективный",
+    "type": "choice",
+    "prompt": "Редактор выбрал … способ проверки текста.",
+    "answer": "эффективный",
+    "alternatives": [],
+    "explanation": "Эффективный даёт результат; эффектный производит впечатление.",
+    "options": [
+      "эффектный",
+      "эффективный"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=эффективный&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p3",
+    "category": "paronyms",
+    "topic": "Адресат — адресант",
+    "type": "choice",
+    "prompt": "В письме нужно правильно указать … — получателя.",
+    "answer": "адресата",
+    "alternatives": [],
+    "explanation": "Адресат получает письмо; адресант его отправляет.",
+    "options": [
+      "адресанта",
+      "адресата"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=адресата&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p4",
+    "category": "paronyms",
+    "topic": "Весовой — весомый",
+    "type": "choice",
+    "prompt": "Учёный внёс … вклад в исследование.",
+    "answer": "весомый",
+    "alternatives": [],
+    "explanation": "Весомый — значительный; весовой — связанный с весом или взвешиванием.",
+    "options": [
+      "весовой",
+      "весомый"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=весомый&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p5",
+    "category": "paronyms",
+    "topic": "Представить — предоставить",
+    "type": "choice",
+    "prompt": "Сотруднику … отпуск на две недели.",
+    "answer": "предоставили",
+    "alternatives": [],
+    "explanation": "Предоставить — дать возможность или право; представить — предъявить или познакомить.",
+    "options": [
+      "представили",
+      "предоставили"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=предоставили&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p6",
+    "category": "paronyms",
+    "topic": "Подпись — роспись",
+    "type": "choice",
+    "prompt": "Директор поставил … в конце документа.",
+    "answer": "подпись",
+    "alternatives": [],
+    "explanation": "Подпись удостоверяет документ; роспись — живопись на стенах или перечень.",
+    "options": [
+      "роспись",
+      "подпись"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=подпись&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p7",
+    "category": "paronyms",
+    "topic": "Экономичный — экономический",
+    "type": "choice",
+    "prompt": "Мы выбрали … маршрут, чтобы потратить меньше топлива.",
+    "answer": "экономичный",
+    "alternatives": [],
+    "explanation": "Экономичный позволяет сберечь ресурсы; экономический относится к экономике.",
+    "options": [
+      "экономический",
+      "экономичный"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=экономичный&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p8",
+    "category": "paronyms",
+    "topic": "Единый — единственный",
+    "type": "choice",
+    "prompt": "Это … сохранившийся экземпляр рукописи.",
+    "answer": "единственный",
+    "alternatives": [],
+    "explanation": "Единственный — только один; единый — общий, нераздельный.",
+    "options": [
+      "единый",
+      "единственный"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=единственный&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p9",
+    "category": "paronyms",
+    "topic": "Исходный — исходящий",
+    "type": "choice",
+    "prompt": "Для монтажа нужен … материал.",
+    "answer": "исходный",
+    "alternatives": [],
+    "explanation": "Исходный — начальный, служащий основой; исходящий — направляемый из учреждения.",
+    "options": [
+      "исходящий",
+      "исходный"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=исходный&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p10",
+    "category": "paronyms",
+    "topic": "Каменный — каменистый",
+    "type": "choice",
+    "prompt": "Тропинка шла по … склону, покрытому мелкими камнями.",
+    "answer": "каменистому",
+    "alternatives": [],
+    "explanation": "Каменистый — покрытый камнями; каменный — состоящий или сделанный из камня.",
+    "options": [
+      "каменному",
+      "каменистому"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=каменистому&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p11",
+    "category": "paronyms",
+    "topic": "Дипломант — дипломат",
+    "type": "choice",
+    "prompt": "… конкурса получил диплом за творческую работу.",
+    "answer": "дипломант",
+    "alternatives": [],
+    "explanation": "Дипломант — награждённый дипломом; дипломат — работник дипломатической службы.",
+    "options": [
+      "дипломант",
+      "дипломат"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=дипломант&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "p12",
+    "category": "paronyms",
+    "topic": "Практический — практичный",
+    "type": "choice",
+    "prompt": "В лаборатории началось … занятие: студенты выполняли опыты.",
+    "answer": "практическое",
+    "alternatives": [],
+    "explanation": "Практическое занятие связано с применением знаний на практике; практичный — удобный, полезный в быту.",
+    "options": [
+      "практическое",
+      "практичное"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/poisk?query=практический&mode=slovari",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s1",
+    "category": "speech",
+    "topic": "Формы слов",
+    "type": "text",
+    "prompt": "Исправь форму: «нет новых ТУФЛЕЙ».",
+    "answer": "туфель",
+    "alternatives": [],
+    "explanation": "Родительный падеж множественного числа: туфель.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s2",
+    "category": "speech",
+    "topic": "Числительные",
+    "type": "text",
+    "prompt": "Исправь форму: «около ПЯТИСТА зрителей».",
+    "answer": "пятисот",
+    "alternatives": [],
+    "explanation": "В родительном падеже: пятисот.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s3",
+    "category": "speech",
+    "topic": "Формы слов",
+    "type": "text",
+    "prompt": "Исправь форму: «более КРАСИВЕЕ». Запиши слово после «более».",
+    "answer": "красивый",
+    "alternatives": [],
+    "explanation": "Составная сравнительная степень: более красивый. Нельзя сочетать «более» и «красивее».",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s4",
+    "category": "speech",
+    "topic": "Формы слов",
+    "type": "text",
+    "prompt": "Исправь форму: «ИХНИЙ сценарий».",
+    "answer": "их",
+    "alternatives": [],
+    "explanation": "Нормативное притяжательное местоимение — их.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s5",
+    "category": "speech",
+    "topic": "Формы слов",
+    "type": "text",
+    "prompt": "Исправь форму: «ЛЯЖЬ на диван».",
+    "answer": "ляг",
+    "alternatives": [],
+    "explanation": "Повелительная форма глагола лечь — ляг.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s6",
+    "category": "speech",
+    "topic": "Числительные",
+    "type": "text",
+    "prompt": "Исправь форму: «с ДВУХСТА участниками».",
+    "answer": "двумястами",
+    "alternatives": [],
+    "explanation": "В творительном падеже изменяются обе части: двумястами.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s7",
+    "category": "speech",
+    "topic": "Избыточность",
+    "type": "text",
+    "prompt": "Убери одно лишнее слово: «свободная вакансия».",
+    "answer": "свободная",
+    "alternatives": [],
+    "explanation": "Вакансия уже означает незанятую должность.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s8",
+    "category": "speech",
+    "topic": "Избыточность",
+    "type": "text",
+    "prompt": "Убери одно лишнее слово: «главная суть».",
+    "answer": "главная",
+    "alternatives": [],
+    "explanation": "Суть — самое главное, сущность.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s9",
+    "category": "speech",
+    "topic": "Сочетаемость",
+    "type": "text",
+    "prompt": "Замени неверное слово: «Команда ПОЛУЧИЛА победу».",
+    "answer": "одержала",
+    "alternatives": [],
+    "explanation": "Нормативное сочетание — одержать победу.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "s10",
+    "category": "speech",
+    "topic": "Сочетаемость",
+    "type": "text",
+    "prompt": "Замени неверное слово: «Это ИГРАЕТ большое значение».",
+    "answer": "имеет",
+    "alternatives": [],
+    "explanation": "Иметь значение; играть роль.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o1",
+    "category": "spelling",
+    "topic": "Гласные в корне",
+    "type": "choice",
+    "prompt": "Вставь букву: л…сной",
+    "answer": "е",
+    "alternatives": [],
+    "explanation": "Проверочное слово — лес.",
+    "options": [
+      "е",
+      "и"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o2",
+    "category": "spelling",
+    "topic": "Гласные в корне",
+    "type": "choice",
+    "prompt": "Вставь букву: прим…рять платье",
+    "answer": "е",
+    "alternatives": [],
+    "explanation": "Примерять — мерить; примирять — мир.",
+    "options": [
+      "е",
+      "и"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o3",
+    "category": "spelling",
+    "topic": "Приставки",
+    "type": "choice",
+    "prompt": "Вставь букву: бе…шумный",
+    "answer": "с",
+    "alternatives": [],
+    "explanation": "Перед глухим ш пишется с.",
+    "options": [
+      "с",
+      "з"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o4",
+    "category": "spelling",
+    "topic": "Приставки",
+    "type": "choice",
+    "prompt": "Вставь букву: пр…ехать в студию",
+    "answer": "и",
+    "alternatives": [],
+    "explanation": "При- обозначает прибытие.",
+    "options": [
+      "е",
+      "и"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o5",
+    "category": "spelling",
+    "topic": "Суффиксы",
+    "type": "choice",
+    "prompt": "Вставь букву: ключ…к",
+    "answer": "и",
+    "alternatives": [],
+    "explanation": "При склонении гласная сохраняется: ключика, поэтому -ик-.",
+    "options": [
+      "е",
+      "и"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o6",
+    "category": "spelling",
+    "topic": "Суффиксы",
+    "type": "choice",
+    "prompt": "Вставь букву: замоч…к",
+    "answer": "е",
+    "alternatives": [],
+    "explanation": "При склонении гласная выпадает: замочка, поэтому -ек-.",
+    "options": [
+      "е",
+      "и"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o7",
+    "category": "spelling",
+    "topic": "Окончания глаголов",
+    "type": "choice",
+    "prompt": "Вставь букву: они стро…т",
+    "answer": "я",
+    "alternatives": [],
+    "explanation": "Строить — II спряжение, строят.",
+    "options": [
+      "я",
+      "ю"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o8",
+    "category": "spelling",
+    "topic": "Окончания глаголов",
+    "type": "choice",
+    "prompt": "Вставь букву: он пиш…т",
+    "answer": "е",
+    "alternatives": [],
+    "explanation": "Писать — I спряжение, пишет.",
+    "options": [
+      "е",
+      "и"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o9",
+    "category": "spelling",
+    "topic": "НЕ и НИ",
+    "type": "choice",
+    "prompt": "Вставь частицу: Я … был в студии вчера.",
+    "answer": "не",
+    "alternatives": [],
+    "explanation": "НЕ выражает отрицание.",
+    "options": [
+      "не",
+      "ни"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o10",
+    "category": "spelling",
+    "topic": "НЕ и НИ",
+    "type": "choice",
+    "prompt": "Вставь частицу: На улице … души.",
+    "answer": "ни",
+    "alternatives": [],
+    "explanation": "НИ усиливает отрицание в конструкции «нет ни души».",
+    "options": [
+      "не",
+      "ни"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o11",
+    "category": "spelling",
+    "topic": "Н и НН",
+    "type": "choice",
+    "prompt": "Выбери написание: стекля…ый",
+    "answer": "стеклянный",
+    "alternatives": [],
+    "explanation": "Стеклянный — исключение, пишется НН.",
+    "options": [
+      "стекляный",
+      "стеклянный"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o12",
+    "category": "spelling",
+    "topic": "Н и НН",
+    "type": "choice",
+    "prompt": "Выбери написание: кожа…ый",
+    "answer": "кожаный",
+    "alternatives": [],
+    "explanation": "В прилагательном с суффиксом -ан- пишется одна Н.",
+    "options": [
+      "кожаный",
+      "кожанный"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o13",
+    "category": "spelling",
+    "topic": "Слитно, раздельно, дефис",
+    "type": "choice",
+    "prompt": "Выбери написание: (по)русски",
+    "answer": "по-русски",
+    "alternatives": [],
+    "explanation": "Наречия с по- и суффиксом -ски пишутся через дефис.",
+    "options": [
+      "порусски",
+      "по русски",
+      "по-русски"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "o14",
+    "category": "spelling",
+    "topic": "Слитно, раздельно, дефис",
+    "type": "choice",
+    "prompt": "Выбери написание: Он ушёл, (не)смотря на дождь.",
+    "answer": "несмотря",
+    "alternatives": [],
+    "explanation": "Несмотря на — производный предлог со значением уступки.",
+    "options": [
+      "несмотря",
+      "не смотря"
+    ],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ"
+  },
+  {
+    "id": "c1",
+    "category": "punctuation",
+    "topic": "Сложное предложение",
+    "type": "commas",
+    "prompt": "Расставь запятые: Когда закончился эфир мы вышли из студии.",
+    "answer": [
+      3
+    ],
+    "alternatives": [],
+    "explanation": "Придаточное времени отделяется от главной части.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "Когда",
+      "закончился",
+      "эфир",
+      "мы",
+      "вышли",
+      "из",
+      "студии."
+    ]
+  },
+  {
+    "id": "c2",
+    "category": "punctuation",
+    "topic": "Однородные члены",
+    "type": "commas",
+    "prompt": "Расставь запятые: Ведущий улыбнулся и начал выпуск.",
+    "answer": [],
+    "alternatives": [],
+    "explanation": "Одиночный союз и связывает однородные сказуемые; запятая не нужна.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "Ведущий",
+      "улыбнулся",
+      "и",
+      "начал",
+      "выпуск."
+    ]
+  },
+  {
+    "id": "c3",
+    "category": "punctuation",
+    "topic": "Обращения",
+    "type": "commas",
+    "prompt": "Расставь запятые: Друзья сегодня мы начинаем новый сезон.",
+    "answer": [
+      1
+    ],
+    "alternatives": [],
+    "explanation": "Обращение «друзья» выделяется запятой.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "Друзья",
+      "сегодня",
+      "мы",
+      "начинаем",
+      "новый",
+      "сезон."
+    ]
+  },
+  {
+    "id": "c4",
+    "category": "punctuation",
+    "topic": "Вводные слова",
+    "type": "commas",
+    "prompt": "Расставь запятые: К счастью запись сохранилась.",
+    "answer": [
+      2
+    ],
+    "alternatives": [],
+    "explanation": "Вводное сочетание «к счастью» выделяется запятой.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "К",
+      "счастью",
+      "запись",
+      "сохранилась."
+    ]
+  },
+  {
+    "id": "c5",
+    "category": "punctuation",
+    "topic": "Обособление",
+    "type": "commas",
+    "prompt": "Расставь запятые: Редактор проверив текст передал его ведущему.",
+    "answer": [
+      1,
+      3
+    ],
+    "alternatives": [],
+    "explanation": "Деепричастный оборот «проверив текст» обособляется.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "Редактор",
+      "проверив",
+      "текст",
+      "передал",
+      "его",
+      "ведущему."
+    ]
+  },
+  {
+    "id": "c6",
+    "category": "punctuation",
+    "topic": "Обособление",
+    "type": "commas",
+    "prompt": "Расставь запятые: Текст написанный редактором лежал на столе.",
+    "answer": [
+      1,
+      3
+    ],
+    "alternatives": [],
+    "explanation": "Причастный оборот после определяемого слова обособляется.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "Текст",
+      "написанный",
+      "редактором",
+      "лежал",
+      "на",
+      "столе."
+    ]
+  },
+  {
+    "id": "c7",
+    "category": "punctuation",
+    "topic": "Сложное предложение",
+    "type": "commas",
+    "prompt": "Расставь запятые: В студии горел свет а за окном темнело.",
+    "answer": [
+      4
+    ],
+    "alternatives": [],
+    "explanation": "Части сложносочинённого предложения разделяются запятой перед а.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "В",
+      "студии",
+      "горел",
+      "свет",
+      "а",
+      "за",
+      "окном",
+      "темнело."
+    ]
+  },
+  {
+    "id": "c8",
+    "category": "punctuation",
+    "topic": "Однородные члены",
+    "type": "commas",
+    "prompt": "Расставь запятые: Мы купили бумагу ручки и карандаши.",
+    "answer": [
+      3
+    ],
+    "alternatives": [],
+    "explanation": "Запятая разделяет бессоюзные однородные дополнения; перед одиночным и не нужна.",
+    "options": [],
+    "difficulty": 1,
+    "format": "learn",
+    "source": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "tokens": [
+      "Мы",
+      "купили",
+      "бумагу",
+      "ручки",
+      "и",
+      "карандаши."
+    ]
+  },
+  {
+    "id": "ep1",
+    "category": "paronyms",
+    "topic": "Задание 5",
+    "type": "text",
+    "prompt": "В одном предложении неверно употреблено выделенное слово. Замени его паронимом, сохранив форму.\n1) Дизайнер предложил ЭФФЕКТНЫЙ способ сократить расходы на электричество.\n2) Ведущий НАДЕЛ пиджак перед эфиром.\n3) Редактор поставил ПОДПИСЬ под письмом.\n4) В кадре актёр выглядел ЭФФЕКТНО.\n5) Сотруднику ПРЕДОСТАВИЛИ отпуск.",
+    "answer": "эффективный",
+    "alternatives": [],
+    "explanation": "Способ, который даёт нужный результат, — эффективный.",
+    "options": [],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 5
+  },
+  {
+    "id": "ep2",
+    "category": "paronyms",
+    "topic": "Задание 5",
+    "type": "text",
+    "prompt": "В одном предложении неверно употреблено выделенное слово. Замени его паронимом, сохранив форму.\n1) Ведущий ОДЕЛ тёплый шарф.\n2) Адресат ПОЛУЧИЛ письмо.\n3) Автор поставил ПОДПИСЬ на титульном листе.\n4) Редактор выбрал ЭФФЕКТИВНЫЙ способ проверки.\n5) Ученику ПРЕДОСТАВИЛИ возможность выступить.",
+    "answer": "надел",
+    "alternatives": [],
+    "explanation": "Надеть что: надел шарф. Одеть кого: одел ребёнка.",
+    "options": [],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 5
+  },
+  {
+    "id": "es1",
+    "category": "speech",
+    "topic": "Задание 7",
+    "type": "text",
+    "prompt": "В одном из выделенных слов допущена ошибка в образовании формы. Исправь её и запиши слово.\n1) нет ТУФЛЕЙ\n2) ПЯТЬСОТ зрителей\n3) ИХ сценарий\n4) ЛЯГ на диван\n5) более КРАСИВЫЙ",
+    "answer": "туфель",
+    "alternatives": [],
+    "explanation": "Родительный падеж множественного числа слова туфля — туфель.",
+    "options": [],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 7
+  },
+  {
+    "id": "es2",
+    "category": "speech",
+    "topic": "Задание 6",
+    "type": "text",
+    "prompt": "Отредактируй предложение: исключи лишнее слово и запиши его.\nВ редакции появилась свободная вакансия звукооператора.",
+    "answer": "свободная",
+    "alternatives": [],
+    "explanation": "Вакансия — незанятая должность: слово «свободная» избыточно.",
+    "options": [],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 6
+  },
+  {
+    "id": "eo1",
+    "category": "spelling",
+    "topic": "Задание 10",
+    "type": "numbers",
+    "prompt": "Укажи ряды, в которых во всех словах пропущена одна и та же буква.",
+    "answer": [
+      1,
+      3
+    ],
+    "alternatives": [],
+    "explanation": "1: бесшумный, расписать — С. 2: приехать — И, прекрасный — Е. 3: безвкусный, разбудить — З. 4: подъезд — Ъ, вьюга — Ь. 5: предыстория — Ы, поиграть — И.",
+    "options": [
+      "бе…шумный, ра…писать",
+      "пр…ехать, пр…красный",
+      "бе…вкусный, ра…будить",
+      "под…езд, в…юга",
+      "пред…стория, по…грать"
+    ],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 10
+  },
+  {
+    "id": "eo2",
+    "category": "spelling",
+    "topic": "Задание 15",
+    "type": "numbers",
+    "prompt": "Укажи номера пропусков, на месте которых пишется НН:\nНа столе стоял стекля(1)ый стакан, рядом лежали кожа(2)ый ремень и оловя(3)ый солдатик.",
+    "answer": [
+      1,
+      3
+    ],
+    "alternatives": [],
+    "explanation": "Стеклянный и оловянный — исключения с НН; кожаный — одна Н.",
+    "options": [
+      "стекля(1)ый",
+      "кожа(2)ый",
+      "оловя(3)ый"
+    ],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 15
+  },
+  {
+    "id": "ec1",
+    "category": "punctuation",
+    "topic": "Задание 17",
+    "type": "numbers",
+    "prompt": "Укажи цифры, на месте которых должны стоять запятые:\nРедактор (1) проверив текст (2) передал его ведущему (3) стоявшему у окна (4) и вышел.",
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "alternatives": [],
+    "explanation": "Деепричастный оборот «проверив текст» и причастный оборот после слова «ведущему» обособляются.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 17
+  },
+  {
+    "id": "ec2",
+    "category": "punctuation",
+    "topic": "Задание 18",
+    "type": "numbers",
+    "prompt": "Укажи цифры, на месте которых должны стоять запятые:\nДрузья (1) к счастью (2) запись (3) сохранилась (4) полностью.",
+    "answer": [
+      1,
+      2
+    ],
+    "alternatives": [],
+    "explanation": "После обращения «друзья» и вводного сочетания «к счастью» нужны запятые.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "difficulty": 2,
+    "format": "ege",
+    "source": "https://fipi.ru/ege/demoversii-specifikacii-kodifikatory",
+    "authorship": "Авторское упражнение по нормативному правилу; не задание банка ФИПИ",
+    "exam_number": 18
+  }
+]
